@@ -1,0 +1,1050 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FCF6F6;
+    /* background-image: url("images/background.jpg"); 
+    background-size: cover;
+    box-sizing: border-box; */
+    font-family:'Times New Roman', Times, serif;
+}
+#NavBar{
+    background-color:#E44E43;
+    display: flex;
+    padding: 20px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+#NavBar .LeftNav h1{
+margin: 10px;
+justify-content: center;
+align-items: center;
+
+}
+#NavBar .LeftNav h1 a{
+    color: #ffff;
+    font-size: 26px;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px whitesmoke;
+}
+#NavBar .RightNav ul{
+    list-style: none;
+    padding-left: 300px;
+    padding-right: 50px;
+    display: flex;
+  
+    
+}
+#NavBar .RightNav ul li{
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+#NavBar .RightNav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight:bold;
+    font-style: italic;
+    color:#ffff;
+    /* text-shadow: 2px 2px 5px whitesmoke; */
+}
+
+#sliderBlock{
+    background-image: url("./images/photo6.jpg");
+    background-position: top;
+   background-repeat: no-repeat;
+   width: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 700px;
+  /* position: relative; */
+  padding:250px 0 250px;
+}
+#sliderBlock article{
+    display:block; 
+    border: none;
+    max-width:60%;
+     margin:0 auto;
+    text-align:center;
+
+}
+#sliderBlock article p{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:normal;
+    font-style: italic;
+    color:white;
+}
+#sliderBlock article h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight:bold;
+    font-style: italic;
+    color:#ffff;
+    cursor: pointer;
+}
+#sliderBlock article h1{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+    color:white;
+    letter-spacing: 2px;
+} 
+ #sliderBlock article button{
+    margin-top: 25px;
+      width: 130px;
+      height: 30px;
+      background: red;
+      color: #fff;
+      padding: 4px;
+      border: none;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+}
+
+
+
+
+/* ---------------------------------------------------middle block starts here--------------------------------------- */
+#middleBlock{
+    /* background-image: url("./images/phot09.jpg"); */
+     background-color: white;
+     background-size: cover;
+     box-sizing: border-box;
+     margin: 180px auto;
+     display: block;
+     max-width: 70%;
+     border-bottom:1.4px solid #C0C0C0 ;
+     /* padding : 600px 0 450px;  */
+     border-radius: 15px;
+     height: 450px;
+}
+#sliderBlock #middleBlock .headingPart{
+    background-color:white;
+     margin: 45px auto;
+     display: block;
+     max-width: 55%;
+     /* border: 1px solid red; */
+     padding : 60px 0 0 0 ;
+     /* border-radius: 15px; */
+}
+#sliderBlock #middleBlock .headingPart h1{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+    color:#2F4F4F;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#sliderBlock #middleBlock .headingPart p{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight:bold;
+    font-style: italic;
+    color:#696969;
+    letter-spacing: 2px;
+}
+#middleBlock .headingPartII{
+    background-color: white;
+    display: block;
+    display: flex;
+    box-sizing: border-box;
+    width: 97.5%;
+    margin: 10px 10px 80px 10px;
+     /* border:1px solid red;  */
+    /* padding: 20px; */
+    height: 150px;
+}
+.headingPartII .firstBlock{
+    display: block;
+    width: 32%;
+    height: 135px;
+    /* border: 1px solid red; */
+    margin:5px ;
+}
+.fib1 {
+     /* border: 2px solid green;  */
+    display: block;
+    width: 100%;
+  }
+.firstBlock .fa-diamond{
+         color: #a9a9a9;
+         /* box-sizing: border-box;  */
+        font-size: 100px;
+        /* height: 50px; */
+        display: block;
+        float: left;
+}
+.fib1 h1{
+    
+        color: red;
+        font-size: 20px;
+         /* border: 2px solid yellow;  */
+        display: block;
+        width: 60%;
+        margin-left: 110px;
+        text-align: center;
+        margin-top: 3px;
+        font-style: oblique;
+      }
+.fib1 p {
+        /* border: 2px solid green; */
+        margin: 5px; 
+        display: block;
+        font-size: 15px;
+        color: #696969;
+        font-style: italic;
+        font-style:italic ;
+        box-sizing: border-box;
+        width: 58%;
+        margin-left: 112px;
+        text-align: justify;
+}
+.headingPartII .secondBlock{
+    display:block; 
+    /* float: left; */
+    width: 32%;
+    height: 135px;
+    /* border: 1px solid red; */
+    margin:5px ;
+}
+.fib2 {
+     /* border: 2px solid green;  */
+    display: block;
+    width: 100%;
+  }
+  
+.secondBlock .fa-fort-awesome{
+        color: #a9a9a9;
+         /* box-sizing: border-box;  */
+        font-size: 100px;
+        /* height: 50px; */
+        display: block;
+        float: left;
+}
+.fib2 h1 {
+    color: red;
+    font-size: 20px;
+    /* border: 2px solid yellow;  */
+    display: block;
+    width: 60%;
+    margin-left: 110px;
+    text-align: center;
+    margin-top: 3px;
+    font-style: oblique;
+  }
+  .fib2 p {
+    /* border: 2px solid green; */
+    margin-top: 5px; 
+    /* padding: 5px; */
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    color:#696969;
+    box-sizing: border-box;
+    width: 56%;
+    margin-left: 120px;
+    text-align: justify;
+  }
+.headingPartII .thirdBlock{
+    display:block; 
+    /* float: left; */
+    width: 32%;
+    height: 135px;
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+.fib3 {
+    /* border: 2px solid green;  */
+   display: block;
+   width: 100%;
+ }
+.thirdBlock .fa-forumbee{
+    color: #a9a9a9;
+     /* box-sizing: border-box;  */
+    font-size: 100px;
+    /* height: 50px; */
+    display: block;
+    float: left;
+}
+.fib3 h1 {
+    color: red;
+    font-size: 20px;
+     /* border: 2px solid yellow;  */
+    display: block;
+    width: 68%;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 3px;
+    font-style: oblique;
+  }
+  .fib3 p {
+     /* border: 2px solid green; */
+     margin-top: 5px; 
+     /* padding: 5px; */
+    display: block;
+    font-size: 15px;
+    color:#696969;
+    font-style: italic;
+    box-sizing: border-box;
+    width: 65%;
+    margin-left: 94px;
+    text-align: justify;
+  }
+   .footer{
+    box-sizing: border-box; 
+    border: none;
+    display: block;
+    float: left;
+    clear: both;
+    width: 15%;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 425px;
+    cursor: pointer;
+}
+.footer button{
+    background-color: red;
+    border:none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+} 
+/* ------------------------------------middle part ends here-------------------------------------------------- */
+
+
+ /* ----------------------------------------------third part strts here----------------------------------------- */
+#thirdBlock{
+     background-color: white;
+     background-size: cover;
+     box-sizing: border-box;
+     margin: 400px auto;
+     display: block;
+     max-width: 70%;
+     /* border:0.5px solid black; */
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 530px;
+}
+#thirdBlock .headerPart{
+    background-color:white;
+     margin: 30px auto;
+     display: block;
+     max-width: 55%;
+     /* border: 1px solid red; */
+     padding : 20px 0 0 0 ;
+     /* border-radius: 15px; */
+}
+#thirdBlock .headerPart h1{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+    color:#2F4F4F;
+    /* letter-spacing: 1px; */
+    text-align: center;
+}
+#thirdBlock .headerPart p{   
+     text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight:bold;
+    font-style: italic;
+    color:#696969;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+#thirdBlock .headerPartII{
+    background-color: white;
+     background-size: cover;
+      display: block; /*display block display flex always use togather else it with not work  */
+     display: flex;
+     box-sizing: border-box;
+     margin-top: 80px;
+     
+     max-width: 100%;
+     /* border:0.5px solid blue; */
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 340px;
+}  
+#thirdBlock .headerPartII .firstBlock{
+    background-color: white;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 340px;
+}
+#thirdBlock .headerPartII .secondBlock{
+    background-color: white;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    /* float: right; */
+    clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 340px;
+}
+#thirdBlock .headerPartII .thirdBlock{
+    background-color: white;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    /* float: right; */
+    clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 340px;
+}
+#thirdBlock .headerPartII .firstBlock .image1{
+     background-image:url("./images/photo11.jpg") ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 10px 0px 0 10px;
+    
+    background-color:white ;
+    
+    /* border:0.5px solid red; */
+    height: 200px;
+}
+#thirdBlock .headerPartII .firstBlock h1{
+    display: block;
+    width:92%;
+    height: 20px;
+    margin:30px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#2F4F4F ;
+    font-size: 20px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+#thirdBlock .headerPartII .firstBlock p{
+    display: block;
+    width:92%;
+    height: 50px;
+    margin:5px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#696969;
+    font-size: 18px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+#thirdBlock .headerPartII .secondBlock .image2{
+    background-image:url("./images/photo12.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 10px 0px 0 10px;
+    
+    background-color:white ;
+    
+    /* border:0.5px solid red; */
+    height: 200px;
+}
+#thirdBlock .headerPartII .secondBlock h1{
+    display: block;
+    width:92%;
+    height: 20px;
+    margin:30px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#2F4F4F ;
+    font-size: 20px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+#thirdBlock .headerPartII .secondBlock p{
+    display: block;
+    width:92%;
+    height: 50px;
+    margin:5px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#696969;
+    font-size: 18px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+
+#thirdBlock .headerPartII .thirdBlock .image3{
+    background-image: url("./images/photo13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 10px 0px 0 10px;
+    
+    background-color:white ;
+    
+    /* border:0.5px solid red; */
+    height: 200px;
+}
+#thirdBlock .headerPartII .thirdBlock h1{
+    display: block;
+    width:92%;
+    height: 20px;
+    margin:30px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#2F4F4F ;
+    font-size: 20px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+#thirdBlock .headerPartII .thirdBlock p{
+    display: block;
+    width:92%;
+    height: 50px;
+    margin:5px 0px 0px 10px;
+    /* border:0.2px solid teal; */
+    text-align: left;
+    color:#696969;
+    font-size: 18px;
+    padding: 1px 0 0 0;
+    font-style: italic;
+}
+/* ----------------------------------------------third part ends here----------------------------------------- */
+
+/* ----------------------------------------------fourth block starts here-------------------------------------- */
+#fourthBlock{
+    background-image: url("./images/photo21.jpg");
+    background-color: white;
+     background-size: cover;
+     box-sizing: border-box;
+     margin-top: -350px;
+     display: block;
+     display: flex;
+     max-width: 100%;
+     /* border:0.5px solid black; */
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 130px;
+}
+#fourthBlock .headingPart{
+    background-color: transparent;
+    display: block;
+    width: 50%;
+    height: 40px;
+    /* border: 0.5px solid red; */
+    margin: 50px 0 0 180px;
+}
+#fourthBlock .headingPart h1{
+    padding: 30px auto;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+    color:#ffff;
+    padding: 5px;
+    /* /* margin-top: 20px; */
+    /* margin-left: 40px; */
+}
+#fourthBlock .btnBlock{
+    background-color: red;
+    border: 0.5px solid red;
+    width: 15%;
+    display: block;
+    display: flex;
+    margin: 50px 0 0 70px;
+    height: 40px;
+}
+#fourthBlock button{
+    color:#ffff;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    text-align: right;
+    text-transform: capitalize;
+}
+/* -------------------------------------------fourth block starts here---------------------------------------------- */
+
+
+
+/* -------------------------------------------fifth block starts here----------------------------------------------- */
+#fifthBlockMain{
+    background-color:#E0E0E0;
+    box-sizing: border-box;
+    display:block;
+    /* margin-top:-40px; */
+    max-width: 100%;
+    border: 1px solid #E0E0E0;
+    height: 615px;
+
+}
+
+#fifthBlock{
+     background-color: #E0E0E0;
+     background-size: cover;
+     box-sizing: border-box;
+     margin: 40px auto;
+     display: block;
+     max-width: 70%;
+     border:0.5px solid #E0E0E0;
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 570px;
+}
+#fifthBlock .headerPart{
+    background-color:#E0E0E0;
+     margin: 30px auto;
+     display: block;
+     max-width: 55%;
+     /* border: 1px solid red; */
+     padding : 20px 0 0 0 ;
+     /* border-radius: 15px; */
+}
+#fifthBlock .headerPart h1{
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+    color:#2F4F4F;
+    /* letter-spacing: 1px; */
+    text-align: center;
+}
+#fifthBlock .headerPart p{
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight:bold;
+    font-style: italic;
+    color:#696969;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+#fifthBlock .headerPartII{
+    background-color: #E0E0E0;
+     background-size: cover;
+      display: block; /*display block display flex always use togather else it with not work  */
+     display: flex;
+     box-sizing: border-box;
+     margin-top: 80px;
+     
+     max-width: 100%;
+     /* border:0.5px solid blue; */
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 250px;
+}
+#fifthBlock .headerPartII .firstBlock{
+    background-color:#E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 250px;
+
+}
+#fifthBlock .headerPartII .firstBlock .first{
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 0px 0px 0 10px;
+    background-color:white ;
+    /* border:2px solid red; */
+    border-radius: 10px;
+    height: 150px;
+}
+#fifthBlock .headerPartII .firstBlock .first p{
+    padding:10px;
+    font-size: 18px;
+    color:#696969;
+    font-style: italic;
+    
+}
+#fifthBlock .headerPartII .firstBlock .triangleBlock1{
+    margin: 0px 0px 0 40px;
+    /* background-color: #ffff; */
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+}
+#fifthBlock .headerPartII .firstBlock .circleBlock1{
+    background-image: url("./images/photo11.jpg");
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    margin: 5px 0px 0 23px;
+    background-color: #ffff;
+    width: 20%;
+    height: 60px;
+    /* border: .5px solid red; */
+    border-radius: 50%;
+}
+#fifthBlock .headerPartII .firstBlock .sideBlock1{
+display: block;
+display: flex;
+width: 50%;
+height: 60px;
+box-sizing: border-box;
+/* border:1px solid red; */
+margin:-50px 0 0 90px;
+}
+#fifthBlock .headerPartII .firstBlock .sideBlock1 h1{
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    color:#2F4F4F;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#fifthBlock .headerPartII .secondBlock{
+    background-color:#E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    height: 250px;
+}
+#fifthBlock .headerPartII .secondBlock .second{
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 0px 0px 0 10px;
+    background-color:white ;
+    /* border:2px solid red; */
+    border-radius: 10px;
+    height: 150px;
+}
+#fifthBlock .headerPartII .secondBlock .second p{
+    padding:10px;
+    font-size: 18px;
+    color:#696969;
+    font-style: italic;
+    
+}
+#fifthBlock .headerPartII .secondBlock .triangleBlock2{
+    margin: 0px 0px 0 40px;
+    /* background-color: #ffff; */
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+}
+#fifthBlock .headerPartII .secondBlock .circleBlock2{
+    background-image: url("./images/photo12.jpg");
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    margin: 5px 0px 0 23px;
+    background-color: #ffff;
+    width: 20%;
+    height: 60px;
+    /* border: .5px solid red; */
+    border-radius: 50%;
+}
+#fifthBlock .headerPartII .secondBlock .sideBlock2{
+    display: block;
+    display: flex;
+    width: 50%;
+    height: 60px;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+    margin:-50px 0 0 90px;
+    }
+    #fifthBlock .headerPartII .secondBlock .sideBlock2 h1{
+        text-align: left;
+        padding: 5px;
+        font-size: 20px;
+        color:#2F4F4F;
+        font-style: italic;
+        font-weight: bold;
+    }
+#fifthBlock .headerPartII .thirdBlock{
+    background-color: #E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 33.3%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 250px;
+
+}
+
+#fifthBlock .headerPartII .thirdBlock .third{
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    margin: 0px 0px 0 10px;
+    background-color:white ;
+    /* border:2px solid red; */
+    border-radius: 10px;
+    height: 150px;
+}
+#fifthBlock .headerPartII .thirdBlock .third p{
+        padding:10px;
+        font-size: 18px;
+        color:#696969;
+        font-style: italic;
+
+}
+#fifthBlock .headerPartII .thirdBlock .triangleBlock3{
+    margin: 0px 0px 0 40px;
+    /* background-color: #ffff; */
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+}
+#fifthBlock .headerPartII .thirdBlock .circleBlock3{
+    background-image: url("./images/photo13.jpg");
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    margin: 5px 0px 0 23px;
+    background-color: #ffff;
+    width: 20%;
+    height: 60px;
+    /* border: .5px solid red; */
+    border-radius: 50%;
+}
+#fifthBlock .headerPartII .thirdBlock .sideBlock3{
+    display: block;
+    display: flex;
+    width: 50%;
+    height: 60px;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+    margin:-50px 0 0 90px;
+    }
+    #fifthBlock .headerPartII .thirdBlock .sideBlock3 h1{
+        text-align: left;
+        padding: 5px;
+        font-size: 20px;
+        color:#2F4F4F;
+        font-style: italic;
+        font-weight: bold;
+    }
+#fifthBlock .footer{
+    background-color: red;
+    width: 15%;
+    margin-top: 50px ;
+    margin-left: 420px;
+    height: 40px;
+    /* text-align: center; */
+}
+#fifthBlock button{
+    color:#ffff;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* -------------------------------------------fifth block ends here-------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------sixth block ends here-------------------------------------------- */
+#sixthBlock{
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 40px auto;
+    display: block;
+    max-width: 70%;
+    /* border:0.5px solid red; */
+         /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 400px;
+}
+#sixthBlock .headingPart{
+    background-color:white;
+     margin: 30px auto;
+     display: block;
+     max-width: 55%;
+     /* border: 1px solid red; */
+     padding : 20px 0 0 0 ;
+     /* border-radius: 15px; */
+}
+#sixthBlock .headingPart h1{
+/* text-transform: uppercase; */
+font-size: 25px;
+font-weight:bold;
+font-style: italic;
+color:#2F4F4F;
+/* letter-spacing: 1px; */
+text-align: center;
+}
+#sixthBlock .headingPart p{
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight:bold;
+    font-style: italic;
+    color:#696969;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+#sixthBlock .headingPartII{
+    background-color: white;
+     background-size: cover;
+      display: block; /*display block display flex always use togather else it with not work  */
+     display: flex;
+     box-sizing: border-box;
+     margin-top: 80px;
+     max-width: 100%;
+     /* border:0.5px solid blue; */
+          /* padding : 600px 0 450px;  */
+     /* border-radius: 15px; */
+     height: 200px;
+}
+#sixthBlock .headingPartII .firstBlock{
+    background-image: url("./images/photo23.jpg");
+    background-color:#E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 34px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 22%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 150px;  
+}
+#sixthBlock .headingPartII .secondBlock{
+    background-image: url("./images/photo24.jpg");
+    background-repeat: no-repeat;
+    background-color:#E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 34px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 22%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 150px;  
+}
+#sixthBlock .headingPartII .thirdBlock{
+    background-image: url("./images/photo25.jpg");
+    background-color:#E0E0E0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 34px;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 22%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 150px;  
+}
+#sixthBlock .headingPartII .fourthBlock{
+    background-image: url("./images/photo26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#E0E0E0;
+    background-size: cover;
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right:0;
+    display: block;
+     /* float: left;  */
+     clear: both;
+    width: 22%;
+    /* border:0.5px solid black; */
+    /* padding : 600px 0 450px;  */
+    /* border-radius: 15px; */
+    height: 150px;  
+}
+/* --------------------------------------------sixth block ends here-------------------------------------------- */
